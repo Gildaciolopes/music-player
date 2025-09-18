@@ -16,6 +16,7 @@
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
+    "express-fileupload": "^1.5.2",
     "mongoose": "^8.16.4",
     "socket.io": "^4.8.1"
   },
