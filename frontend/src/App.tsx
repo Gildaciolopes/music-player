@@ -7,16 +7,16 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<HomePage />}></Route>
+        <Route path="/" element={<HomePage />} />
         <Route
           path="/sso-callback"
           element={
             <AuthenticateWithRedirectCallback
-              signInForceRedirectUrl={"/auth-callback"}
+              signUpForceRedirectUrl={"/auth-callback"}
             />
           }
-        ></Route>
-        <Route path="/auth-callback" element={<AuthCallbackPage />}></Route>
+        />
+        <Route path="/auth-callback" element={<AuthCallbackPage />} />
       </Routes>
     </>
   );
